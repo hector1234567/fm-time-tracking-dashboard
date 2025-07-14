@@ -130,6 +130,10 @@ h1 {
   color: var(--White);
 }
 
+.header a.active {
+  color: var(--White);
+}
+
 section {
   padding-top: 4.5rem;
   border-radius: 1.5rem;
