@@ -76,6 +76,7 @@ async function setTimeframe() {
         return {
           title: section.title,
           ...section.timeframes[timeframe],
+          timeframe,
         };
       })
     );
